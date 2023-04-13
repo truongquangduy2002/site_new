@@ -1,18 +1,33 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Application
+.env
 
-# Other files and folders
-.settings/
+# Folders to ignore
+/vendor
+/temp
+/tmp
+/.tmp
+node_modules
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*.7z
+*.dmg
+*.gz
+*.iso
+*.rar
+*.tar
+*~
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# OS or Editor folders
+.DS_Store
+__MACOSX/
+._*
+Desktop.ini
+.idea
